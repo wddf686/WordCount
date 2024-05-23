@@ -40,9 +40,9 @@ int main(int argc, char *argv[]) {
     }  
   
     if (param[0] == '-' && param[1] == 'c') {  
-        printf("×Ö·ûÊý£º%d\n", char_count);  
+        printf("Character count:%d\n", char_count);  
     } else if (param[0] == '-' && param[1] == 'w') {  
-        printf("µ¥´ÊÊý£º%d\n", word_count);  
+        printf("Word count:%d\n", word_count);  
     }  
   
     fclose(file);  
